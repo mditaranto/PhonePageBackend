@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost","127.0.0.1", "http://localhost:5173"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1", "phonepagebackend.onrender.com"]
 
 # Permitir todos los métodos HTTP (opcional)
 CORS_ALLOW_METHODS = [
